@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using XAMLInXamarinForms.Views.Nutrition;
 
 namespace XAMLInXamarinForms.Views.Nutrition
 {
@@ -17,5 +16,6 @@ namespace XAMLInXamarinForms.Views.Nutrition
         {
             InitializeComponent();
         }
+
     }
 }

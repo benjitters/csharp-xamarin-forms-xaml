@@ -17,5 +17,6 @@ namespace XAMLInXamarinForms.Views.Fitness
         {
             InitializeComponent();
         }
+
     }
 }
