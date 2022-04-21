@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XAMLInXamarinForms.Views.Fitness;
 
-namespace XAMLInXamarinForms.Views
+namespace XAMLInXamarinForms.Views.Fitness
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class FitnessView : ContentPage
+    public partial class FitnessView : CarouselPage
     {
         public FitnessView()
         {
+            InitializeComponent();
         }
     }
 }

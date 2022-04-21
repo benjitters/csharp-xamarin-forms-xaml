@@ -25,5 +25,6 @@ namespace XAMLInXamarinForms
         protected override void OnResume()
         {
         }
+
     }
 }

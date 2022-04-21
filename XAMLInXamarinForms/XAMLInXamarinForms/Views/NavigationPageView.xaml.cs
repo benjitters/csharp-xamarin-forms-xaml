@@ -15,5 +15,16 @@ namespace XAMLInXamarinForms.Views
         {
             InitializeComponent();
         }
+
+        private async void FitnessButton_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(this);
+        }
+
+        private async void NutritionButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(this);
+        }
+
     }
 }
