@@ -10,11 +10,10 @@ using Xamarin.Forms.Xaml;
 namespace XAMLInXamarinForms.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class FlyoutPage1Detail : ContentPage
+    public partial class FitnessView : ContentPage
     {
-        public FlyoutPage1Detail()
+        public FitnessView()
         {
-            InitializeComponent();
         }
     }
 }
